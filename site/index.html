@@ -1,37 +1,117 @@
-<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Netflix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>NGINX on Railway</title>
-    <meta name="description" content="Choo Choo!" />
+<body>
+  <div class="wrapper">
 
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- HEADER -->
+    <header>
+      <div class="netflixLogo">
+        <a id="logo" href="#home"><img src="img/logo.png" alt="Logo Image"></a>
+      </div>      
+      <nav class="main-nav">                
+        <a href="#home">Comunidades</a>
+        <a href="#tvShows">Becas</a>
+        <a href="#movies">Empleo</a>
+        <a href="#originals">Certificaciones</a>
+      </nav>
+      <nav class="sub-nav">
+        <div class="netflixLogo">
+            <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+            <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+            <a id="logo" href="#home"><img src="img/user.png" alt="Logo Image"></a>
+          </div>    
+        </nav>      
+    </header>
+    <!-- END OF HEADER -->
+    
+    <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div class="location" id="home">
+          <h1 id="home">Popular entre otros como tú</h1>
+          <div class="box">
+            <a href="curso1.html"><img src="img/curso1.png?raw=true" alt=""></a>
+            <a href="curso1.html"><img src="img/curso2.png?raw=true" alt=""></a>
+            <a href="curso1.html"><img src="img/curso3.png?raw=true" alt=""></a>
+            <a href="curso1.html"><img src="img/curso4.png?raw=true" alt=""></a>
+            <a href="curso1.html"><img src="img/curso5.png?raw=true" alt=""></a>
+            <a href="curso1.html"><img src="img/curso6.png?raw=true" alt=""></a>
+          </div>
+      </div>
+      
 
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
-  </head>
+      <h1 id="myList">Tendencias ahora</h1>
+      <div class="box">
+        <a href="curso1.html"><img src="img/1curso1.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/1curso2.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/1curso3.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/1curso4.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/1curso5.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/1curso6.png?raw=true" alt=""></a>
+      </div>
+      <h1 id="tvShows">Recomendaciones para Ana</h1>
+      <div class="box">
+        <a href="curso1.html"><img src="img/2curso1.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/2curso2.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/2curso3.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/2curso4.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/2curso5.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/2curso6.png?raw=true" alt=""></a>  
+    </div>
 
-  <body>
-    <main>
-      <img
-        src="https://railway.app/brand/logo-light.svg"
-        alt="Railway logo"
-        class="logo"
-      />
+      <h1 id="movies">Escuelas de Negocio que te podrían  interesar</h1>
+      <div class="box">
+        <a href="curso1.html"><img src="img/3curso1.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/3curso2.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/3curso3.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/3curso4.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/3curso5.png?raw=true" alt=""></a>
+        <a href="curso1.html"><img src="img/3curso6.png?raw=true" alt=""></a>
+    </div>
 
-      <h1>NGINX on Railway</h1>
+     
+    <!-- END OF MAIN CONTAINER -->
 
-      <p>
-        Choo Choo! This is an example of an NGINX static site running on
-        Railway.
-        <a
-          href="https://github.com/railwayapp/starters/tree/master/examples/nginx"
-          >View source</a
-        >.
-      </p>
-    </main>
+    <!-- LINKS -->
+    <section class="link">
+      <div class="logos">
+        <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+      </div>
+      <div class="sub-links">
+        <ul>
+          <li><a href="#">Audio and Subtitles</a></li>
+          <li><a href="#">Audio Description</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Legal Notices</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- END OF LINKS -->
 
-    <script src="/script.js"></script>
-  </body>
+    <!-- FOOTER -->
+    <footer>
+      <p>PDD</p>
+      <p>SANTANDER</p>
+    </footer>
+  </div>
+</body>
 </html>
